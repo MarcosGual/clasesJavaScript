@@ -23,8 +23,8 @@ const div = document.querySelector("div");
 // strong.innerText = "Hola Mundo!";
 // div.append(strong);
 
-const spanSaludo=document.querySelector('#saludo');
-const spanDespedida=document.querySelector('#despedida');
+const spanSaludo = document.querySelector("#saludo");
+const spanDespedida = document.querySelector("#despedida");
 
 //ELIMINANDO ELEMENTOS CON remove()
 // spanSaludo.remove();
@@ -36,12 +36,14 @@ const spanDespedida=document.querySelector('#despedida');
 
 //Mostrando, modificando y eliminando atributos
 console.log(spanSaludo.getAttribute("title"));
-console.log(spanDespedida.getAttribute('title'));
+console.log(spanDespedida.getAttribute("title"));
 
-spanSaludo.setAttribute('class', 'saludo');
-spanSaludo.setAttribute('id', 'dsasd');
+spanSaludo.setAttribute("class", "saludo");
+spanSaludo.setAttribute("id", "dsasd");
 
-spanSaludo.removeAttribute('id');
+spanSaludo.removeAttribute("id");
 
-//Data test
-console.log(spanSaludo.dataset);
+//ATRIBUTO DATASET
+console.log(spanSaludo.dataset.nombreLargo);
+console.log(spanSaludo.dataset.test);
+spanSaludo.dataset.nuevoNombre = "hola";
