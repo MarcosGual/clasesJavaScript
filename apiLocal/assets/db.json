@@ -1,0 +1,46 @@
+{
+    "saiyans": [
+        {
+            "id": 1,
+            "nombre": "Goku",
+            "transformacion": "Ultra-Instinct"
+        },
+        {
+            "id": 2,
+            "nombre": "Vegeta",
+            "transformacion": "Ultra-Ego"
+        },
+        {
+            "id": 3,
+            "nombre": "Gohan",
+            "transformacion": "Estado Definitivo"
+        },
+        {
+            "id": 4,
+            "nombre": "Trunks",
+            "transformacion": "Super Saiyan Ira"
+        }
+    ],
+    "humanos":[
+        {
+            "id": 1,
+            "nombre": "Krilin",
+            "tecnica": "Area sin ego"
+        },
+        {
+            "id": 2,
+            "nombre": "Ten Shinhan",
+            "tecnica": "Kikoho"
+        },
+        {
+            "id": 3,
+            "nombre": "Yamcha",
+            "tecnica": "RogaFufuKen"
+        },
+        {
+            "id": 4,
+            "nombre": "Videl",
+            "tecnica": "Patada dinamita"
+        }
+    ]
+}
